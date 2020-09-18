@@ -1,0 +1,51 @@
+{
+    "sanpham": [{
+            "id": 1,
+            "title": "PHP",
+            "bigImage": "/images/p1.jpg",
+            "productImages": ["/images/pflo1.jpg", "/images/pflo2.jpg"],
+            "des": "An illustration is a visualization or a depiction made by an artist, such as a drawing, sketch, painting, photograph, or other kind of image of things seen, remembered or imagined, using a graphical representation.",
+            "client": "IshYoBoy",
+            "role": "coder",
+            "cat": "design",
+            "link": "tintuc24h.byethost.com",
+            "pathSeo": "php"
+        },
+        {
+            "id": 2,
+            "title": "Node Js",
+            "bigImage": "/images/p2.jpg",
+            "productImages": ["/images/pflo3.jpg", "/images/pflo1.jpg"],
+            "des": "An illustration is a visualization or a depiction made by an artist, such as a drawing, sketch, painting, photograph, or other kind of image of things seen, remembered or imagined, using a graphical representation.",
+            "client": "IshYoBoy",
+            "role": "designer",
+            "cat": "Branding",
+            "link": "zing.vn",
+            "pathSeo": "Node-Js"
+        },
+        {
+            "id": 3,
+            "title": "Javascript",
+            "bigImage": "/images/p3.jpg",
+            "productImages": ["/images/t1.jpg", "/images/t2.jpg"],
+            "des": "Such as a drawing, sketch, painting, photograph, or other kind of image of things seen, remembered or imagined, using a graphical representation.",
+            "client": "baba",
+            "role": "Website",
+            "cat": "backend",
+            "link": "vnxpress.com",
+            "pathSeo": "Javascript"
+        },
+        {
+            "id": 4,
+            "title": "Angular",
+            "bigImage": "/images/p4.jpg",
+            "productImages": ["/images/t3.jpg", "/images/t4.jpg"],
+            "des": "An illustration is a visualization or a depiction made by an artist, such as a drawing, sketch, painting, photograph, or other kind of image of things seen, remembered or imagined, using a graphical representation.",
+            "client": "baba",
+            "role": "Website",
+            "cat": "fontend",
+            "link": "youtobe.com",
+            "pathSeo": "Angular"
+        }
+    ]
+}

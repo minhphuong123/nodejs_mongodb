@@ -1,0 +1,23 @@
+<% include fixCung/header %>
+
+    <h3 class="text-center">Sản phẩm đã xem</h3>
+    <div class="ish-row ish-content ish-portfolio ish-macy">
+
+        <% danhsach.forEach(function(id) {
+            %>
+
+            <% fakeData.sanpham.forEach(function(motsanpham) {%>
+                <% if(id == motsanpham.id ){ %>
+                    <a class="ish-portfolio-item ish--tc13 ish-portfolio-<%= motsanpham.cat %>" href="/details/<%= motsanpham.pathSeo %>/<%= motsanpham.id %>">
+                        <div class="ish-portfolio-item__image-container">
+                            <img class="ish-portfolio-item__image" src="<%= motsanpham.bigImage %>" alt="business cards">
+                        </div>
+                        <div class="ish-portfolio-item__desc">
+                            <span class="ish-portfolio-item__title"><%= motsanpham.title %></span>
+                            <span class="ish-portfolio-item__subtitle"><%= motsanpham.cat %></span>
+                        </div>
+                    </a>
+
+                    <%} })}); %>
+    </div>
+    <% include fixCung/footer %>
